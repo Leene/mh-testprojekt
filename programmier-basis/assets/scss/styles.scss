@@ -1,0 +1,13 @@
+@import "variables";
+@import "fonts";
+@import "header";
+@import "footer";
+@import "form";
+@import "lib/bootstrap/bootstrap";
+@import "lib/fontawesome/regular";
+@import "lib/fontawesome/solid";
+@import "lib/fontawesome/fontawesome";
+
+body {
+  background: blue;
+}
