@@ -9,5 +9,34 @@
 @import "lib/fontawesome/fontawesome";
 
 body {
-  background: blue;
+  background: $color-background;
+  width: 45vw;
+  margin: 0 auto;
+}
+
+header {
+  background-color: darkgoldenrod;
+}
+
+main {
+  border: darkred 2px solid;
+}
+.content {
+  background-color: aqua;
+}
+.contact {
+  background-color: blueviolet;
+}
+
+footer {
+}
+
+.flexcolumn {
+  display: flex;
+  flex-direction: column;
+}
+
+.flexrow {
+  display: flex;
+  flex-direction: row;
 }

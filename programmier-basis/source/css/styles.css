@@ -1,6 +1,65 @@
 @charset "UTF-8";
 /* Fonts */
 @font-face {}
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+li {
+  list-style: none;
+}
+
+header {
+  text-align: center;
+  border: greenyellow 1px solid;
+}
+header img {
+  height: 200px;
+  margin: 70px 0 150px 0;
+}
+
+footer {
+  border-top: 3px solid black;
+  text-align: center;
+}
+footer div {
+  text-align: left;
+}
+footer .__img {
+  height: 80px;
+  margin: 50px 0 30px 0;
+}
+footer .__ul {
+  padding: 0px 50px 0 0;
+}
+footer .__div-link {
+  margin-bottom: 30px;
+}
+footer .__div-link :first-child {
+  margin: 0px 20px 0px 0px;
+}
+footer .__link {
+  color: #000;
+}
+footer .__link:hover {
+  color: #ee6f5f;
+}
+footer .__link:active {
+  color: #ee6f5f;
+}
+footer .__link-icon:first-child {
+  margin: 0px 20px 0px 0px;
+}
+footer .__link-icon .__img {
+  height: 30px;
+  margin: 0px 0px 0px 0px;
+}
+
+.spacebetween {
+  justify-content: space-between;
+}
+
 /*!
  * Bootstrap v4.5.2 (https://getbootstrap.com/)
  * Copyright 2011-2020 The Bootstrap Authors
@@ -15972,6 +16031,34 @@ readers do not read off random characters that represent icons */
 }
 
 body {
-  background: blue;
+  background: #f5f3ea;
+  width: 45vw;
+  margin: 0 auto;
+}
+
+header {
+  background-color: darkgoldenrod;
+}
+
+main {
+  border: darkred 2px solid;
+}
+
+.content {
+  background-color: aqua;
+}
+
+.contact {
+  background-color: blueviolet;
+}
+
+.flexcolumn {
+  display: flex;
+  flex-direction: column;
+}
+
+.flexrow {
+  display: flex;
+  flex-direction: row;
 }
 /*# sourceMappingURL=styles.css.map */
