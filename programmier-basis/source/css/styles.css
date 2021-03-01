@@ -12,7 +12,6 @@ li {
 
 header {
   text-align: center;
-  border: greenyellow 1px solid;
 }
 header img {
   height: 200px;
@@ -16034,10 +16033,6 @@ body {
   background: #f5f3ea;
   width: 45vw;
   margin: 0 auto;
-}
-
-header {
-  background-color: darkgoldenrod;
 }
 
 main {
